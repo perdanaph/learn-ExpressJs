@@ -6,7 +6,7 @@
         "node": true
     },
     "extends": [
-        "google"
+        "AirBnB"
     ],
     "parserOptions": {
         "ecmaVersion": "latest"
