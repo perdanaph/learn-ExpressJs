@@ -1,0 +1,30 @@
+{
+  "name": "learn-expressjs",
+  "version": "1.0.0",
+  "description": "repo to learn framework nodejs express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perdanaph/learn-ExpressJs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "perdanaph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/perdanaph/learn-ExpressJs/issues"
+  },
+  "homepage": "https://github.com/perdanaph/learn-ExpressJs#readme",
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
