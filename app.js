@@ -1,11 +1,11 @@
-const express =require('express');
+const express = require('express');
+const studentRoutes = require('./src/student/routes')
 
 const app = express();
 const port = 3000;
 
-app.get('/', (req, res) => {
-  res.send('Learn Express');
-});
+app.use(express.json());
+app.use('/api/v1/students', studentRoutes);
 
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
