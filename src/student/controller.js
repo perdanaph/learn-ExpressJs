@@ -42,3 +42,21 @@ exports.addStudent = (req, res) => {
     res.json({message: 'error', err});
   }
 };
+
+exports.deleteStudentById = (req, res) => {
+  try {
+    const id = parseInt(req.params.id);
+    pool.query(query.deleteStudent, [id], (err, results) => {
+      const noStudentIdFound = !results.rows.length
+      if (noStudentIdFound) {
+        res.json({message: 'Student does not exist in database'});
+      }
+      pool.query(query.deleteStudent, [id], (err, results) => {
+        if (err) throw err;
+        res.status(200).json({message: 'student success delete'});
+      });
+    });
+  } catch (err) {
+    res.json({message: 'error', err});
+  }
+};

@@ -10,4 +10,7 @@ router.post('/', controller.addStudent);
 router.get('/:id', controller.getStudentById);
 // route untuk get data berdasarkan id
 
+router.delete('/:id', controller.deleteStudentById);
+
+
 module.exports = router;
