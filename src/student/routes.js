@@ -5,6 +5,8 @@ const router = Router();
 
 router.get('/', controller.getStudets);
 
+router.post('/', controller.addStudent);
+
 router.get('/:id', controller.getStudentById);
 // route untuk get data berdasarkan id
 
