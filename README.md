@@ -6,5 +6,5 @@ Project ini adalah Project untuk belajar Node lebih dalam dan juga ExpressJS
 Install dependencies terlebih dahulu
 
 ### `npm install`
-jalankan dalam delelopment mode
+jalankan dalam development mode
 buka http://localhost:3000 dan buka di postman
