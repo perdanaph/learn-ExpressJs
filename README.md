@@ -7,4 +7,6 @@ Install dependencies terlebih dahulu
 
 ### `npm install`
 jalankan dalam development mode
-buka http://localhost:3000 dan buka di postman
+
+### `npm run start`
+jalankan http://localhost:3000 dan buka di postman
