@@ -8,4 +8,6 @@ const addStudent = 'INSERT INTO students (name, age, email, dateofbirth) VALUES 
 
 const deleteStudent = 'DELETE FROM students WHERE id=$1';
 
-module.exports = {getStudets, getStudentById, cekEmail, addStudent, deleteStudent};
+const updateStudent = 'UPDATE students SET name = $1, age = $2, email = $3, dateofbirth = $4 WHERE id = $5'; 
+
+module.exports = {getStudets, getStudentById, cekEmail, addStudent, deleteStudent, updateStudent};
