@@ -7,4 +7,4 @@ Install dependencies terlebih dahulu
 
 ### `npm install`
 jalankan dalam delelopment mode
-buka [http://localhost:3000], dan buka di postman
+buka [http://localhost:3000] dan buka di postman
